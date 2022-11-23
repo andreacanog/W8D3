@@ -47,4 +47,34 @@ class Clock {
     
 }
 
-const clock = new Clock();
+// const clock = new Clock();
+
+// readline.createInterface()
+
+// const addNumbers = () => { 
+
+// }
+
+
+
+
+Function.prototype.myBind = function(ctx) {
+    return () => {this.apply(ctx)}
+}
+
+// Function.prototype.myBind = function(ctx) {
+//     let that = this;
+
+//     return function() {
+//         return that.apply(ctx);
+//     }
+
+// }
+
+
+
+
+
+
+
+
